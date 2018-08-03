@@ -1,11 +1,22 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 
 export default styled.main`
   display: flex;
   flex-wrap: wrap;
-  max-width: 900px;
+  width: 1080px;
   margin: 0 auto;
-  box-shadow: 0 0 1px #999 inset;
 
-`
+  ${props =>
+    props.theme.size.breakpoint.max.l`
+      width: 750px;
+    `};
+  ${props =>
+    props.theme.size.breakpoint.max.m`
+      width: 520px;
+    `};
+  ${props =>
+    props.theme.size.breakpoint.max.s`
+      width: 320px;
+    `};
+`;

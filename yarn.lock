@@ -16,6 +16,10 @@
     esutils "^2.0.2"
     js-tokens "^3.0.0"
 
+"@roast-cms/react-sugar-styled@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@roast-cms/react-sugar-styled/-/react-sugar-styled-1.0.4.tgz#cd51b29ee126212e7c6bce66605d119bcac01d07"
+
 "@types/node@*":
   version "10.5.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.5.5.tgz#8e84d24e896cd77b0d4f73df274027e3149ec2ba"

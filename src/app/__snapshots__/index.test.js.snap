@@ -15,45 +15,240 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "class",
     "props": Object {
-      "children": Array [
-        <Unknown />,
-        <styled.main />,
-      ],
+      "children": <div>
+        <Unknown />
+        <styled.main>
+          <Unknown
+            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+          />
+          <Unknown
+            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+          />
+          <Unknown
+            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+          />
+          <Unknown
+            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+          />
+          <Unknown
+            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+          />
+          <Unknown
+            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+          />
+          <Unknown
+            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+          />
+        </styled.main>
+      </div>,
+      "theme": Object {
+        "color": Object {
+          "background": [Function],
+          "brand": [Function],
+          "foreground": [Function],
+          "highlight": [Function],
+        },
+        "effects": Object {
+          "borderRadius": Object {
+            "med": 0.45,
+            "small": [Function],
+          },
+        },
+        "layer": Object {
+          "card": 30,
+          "nav": 20,
+          "overlay": 40,
+          "tuck": -1,
+          "up": 10,
+        },
+        "opacity": Object {
+          "half": 0.5,
+          "least": 0.125,
+          "most": 0.85,
+        },
+        "size": Object {
+          "block": Object {
+            "border": 4,
+            "column": Object {
+              "l": 900,
+              "m": 700,
+            },
+            "padding": 1.5,
+            "spacing": 0.75,
+          },
+          "breakpoint": Object {
+            "exact": Object {
+              "l": [Function],
+              "m": [Function],
+              "s": [Function],
+              "xl": [Function],
+              "xs": [Function],
+              "xxl": [Function],
+            },
+            "max": Object {
+              "l": [Function],
+              "m": [Function],
+              "s": [Function],
+              "xl": [Function],
+              "xs": [Function],
+              "xxl": [Function],
+            },
+            "min": Object {
+              "l": [Function],
+              "m": [Function],
+              "s": [Function],
+              "xl": [Function],
+              "xs": [Function],
+              "xxl": [Function],
+            },
+            "stops": Object {
+              "max": 1600,
+              "min": 320,
+            },
+          },
+          "font": Object {
+            "auto": Array [
+              "
+        ",
+              "
+		@media (min-width: ",
+              "32.5625",
+              "em) {
+			",
+              "font-size: 	",
+              [Function],
+              "px;",
+              "
+		}
+	",
+              " ",
+              "
+		@media (max-width: ",
+              "32.5",
+              "em) {
+			",
+              "font-size: 	",
+              [Function],
+              "px;",
+              "
+		}
+	",
+              " ",
+              "
+		@media (max-width: ",
+              "20",
+              "em) {
+			",
+              "font-size: 	",
+              [Function],
+              "px;",
+              "
+		}
+	",
+              " ",
+              "
+		@media (min-width: ",
+              "100.0625",
+              "em) {
+			",
+              "font-size:	",
+              [Function],
+              "px;",
+              "
+		}
+	",
+              ";
+      ",
+            ],
+            "l": 20.7,
+            "m": 18,
+            "make": Object {
+              "larger": 2,
+              "normal": 1,
+              "smaller": 0.85,
+              "tiny": 0.5,
+            },
+            "s": 16.2,
+            "xs": 15.299999999999999,
+          },
+        },
+        "typography": Object {
+          "text": Object {
+            "auto": Array [
+              "
+          color: ",
+              [Function],
+              ";
+          font-family: ",
+              "Arial, sans-serif",
+              ";
+          letter-spacing: 0.025em;
+          line-height: ",
+              [Function],
+              "em;
+        ",
+            ],
+            "font": "Arial, sans-serif",
+            "lineHeight": 1.75,
+          },
+          "title": Object {
+            "auto": Array [
+              "
+          color: ",
+              [Function],
+              ";
+          font-family: ",
+              "Arial, sans-serif",
+              ";
+          letter-spacing: 0.025em;
+          line-height: ",
+              [Function],
+              "em;
+          font-weight: ",
+              "700",
+              ";
+          margin: 0;
+        ",
+            ],
+            "font": "Arial, sans-serif",
+            "lineHeight": 1.15,
+          },
+        },
+      },
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-    ],
-    "type": "div",
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
+    "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
           <Unknown />,
-          <styled.main />,
+          <styled.main>
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+          </styled.main>,
         ],
       },
       "ref": null,
@@ -71,13 +266,484 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "children": Array [
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />,
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />,
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />,
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />,
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />,
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />,
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />,
+            ],
+          },
           "ref": null,
-          "rendered": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
           "type": [Function],
         },
       ],
       "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <div>
+          <Unknown />
+          <styled.main>
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+            <Unknown
+              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+            />
+          </styled.main>
+        </div>,
+        "theme": Object {
+          "color": Object {
+            "background": [Function],
+            "brand": [Function],
+            "foreground": [Function],
+            "highlight": [Function],
+          },
+          "effects": Object {
+            "borderRadius": Object {
+              "med": 0.45,
+              "small": [Function],
+            },
+          },
+          "layer": Object {
+            "card": 30,
+            "nav": 20,
+            "overlay": 40,
+            "tuck": -1,
+            "up": 10,
+          },
+          "opacity": Object {
+            "half": 0.5,
+            "least": 0.125,
+            "most": 0.85,
+          },
+          "size": Object {
+            "block": Object {
+              "border": 4,
+              "column": Object {
+                "l": 900,
+                "m": 700,
+              },
+              "padding": 1.5,
+              "spacing": 0.75,
+            },
+            "breakpoint": Object {
+              "exact": Object {
+                "l": [Function],
+                "m": [Function],
+                "s": [Function],
+                "xl": [Function],
+                "xs": [Function],
+                "xxl": [Function],
+              },
+              "max": Object {
+                "l": [Function],
+                "m": [Function],
+                "s": [Function],
+                "xl": [Function],
+                "xs": [Function],
+                "xxl": [Function],
+              },
+              "min": Object {
+                "l": [Function],
+                "m": [Function],
+                "s": [Function],
+                "xl": [Function],
+                "xs": [Function],
+                "xxl": [Function],
+              },
+              "stops": Object {
+                "max": 1600,
+                "min": 320,
+              },
+            },
+            "font": Object {
+              "auto": Array [
+                "
+        ",
+                "
+		@media (min-width: ",
+                "32.5625",
+                "em) {
+			",
+                "font-size: 	",
+                [Function],
+                "px;",
+                "
+		}
+	",
+                " ",
+                "
+		@media (max-width: ",
+                "32.5",
+                "em) {
+			",
+                "font-size: 	",
+                [Function],
+                "px;",
+                "
+		}
+	",
+                " ",
+                "
+		@media (max-width: ",
+                "20",
+                "em) {
+			",
+                "font-size: 	",
+                [Function],
+                "px;",
+                "
+		}
+	",
+                " ",
+                "
+		@media (min-width: ",
+                "100.0625",
+                "em) {
+			",
+                "font-size:	",
+                [Function],
+                "px;",
+                "
+		}
+	",
+                ";
+      ",
+              ],
+              "l": 20.7,
+              "m": 18,
+              "make": Object {
+                "larger": 2,
+                "normal": 1,
+                "smaller": 0.85,
+                "tiny": 0.5,
+              },
+              "s": 16.2,
+              "xs": 15.299999999999999,
+            },
+          },
+          "typography": Object {
+            "text": Object {
+              "auto": Array [
+                "
+          color: ",
+                [Function],
+                ";
+          font-family: ",
+                "Arial, sans-serif",
+                ";
+          letter-spacing: 0.025em;
+          line-height: ",
+                [Function],
+                "em;
+        ",
+              ],
+              "font": "Arial, sans-serif",
+              "lineHeight": 1.75,
+            },
+            "title": Object {
+              "auto": Array [
+                "
+          color: ",
+                [Function],
+                ";
+          font-family: ",
+                "Arial, sans-serif",
+                ";
+          letter-spacing: 0.025em;
+          line-height: ",
+                [Function],
+                "em;
+          font-weight: ",
+                "700",
+                ";
+          margin: 0;
+        ",
+              ],
+              "font": "Arial, sans-serif",
+              "lineHeight": 1.15,
+            },
+          },
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Unknown />,
+            <styled.main>
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />
+              <Unknown
+                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+              />
+            </styled.main>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Unknown
+                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+                />,
+                <Unknown
+                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+                />,
+                <Unknown
+                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+                />,
+                <Unknown
+                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+                />,
+                <Unknown
+                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+                />,
+                <Unknown
+                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+                />,
+                <Unknown
+                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
     },
   ],
   Symbol(enzyme.__options__): Object {

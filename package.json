@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "@roast-cms/react-sugar-styled": "^1.0.4",
     "axios": "^0.18.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",

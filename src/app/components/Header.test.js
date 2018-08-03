@@ -4,7 +4,7 @@ import React from "react";
 
 import { shallow } from "enzyme";
 
-import Header, { Title, Header as HeaderStyles } from "./Header";
+import Header, { Title, HeaderWrap } from "./Header";
 
 test("Render Header without crashing, match snapshot", () => {
   const element = shallow(<Header />);
@@ -16,7 +16,7 @@ test("Render Title without crashing, match snapshot", () => {
   expect(element).toMatchSnapshot();
 });
 
-test("Render HeaderStyles without crashing, match snapshot", () => {
-  const element = shallow(<HeaderStyles />);
+test("Render HeaderWrap without crashing, match snapshot", () => {
+  const element = shallow(<HeaderWrap />);
   expect(element).toMatchSnapshot();
 });
