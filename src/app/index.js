@@ -1,5 +1,10 @@
-import React from "react"
+import "sanitize.css"
 
-export default () => {
-  return <div>hello</div>
-}
+import React from "react";
+
+import Header from './components/Header';
+
+export default () =>
+  <div>
+    <Header />
+  </div>;
