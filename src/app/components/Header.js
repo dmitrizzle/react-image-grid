@@ -2,6 +2,11 @@ import React from "react"
 import styled from "styled-components"
 
 export const Header = styled.header`
-  background: #999
+  padding: 1em;
 `
-export default () => <Header><h1>React Image Grid</h1></Header>
+export const Title = styled.h1`
+  font-family: 'Indie Flower', cursive;
+  margin: 0;
+  text-align: center;
+`
+export default () => <Header><Title>React Image Grid</Title></Header>
