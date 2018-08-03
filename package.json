@@ -1,0 +1,10 @@
+{
+  "name": "react-image-grid",
+  "version": "0.0.1",
+  "description": "A simple responsive web app for interpreting image galleries via JSON API",
+  "main": "index.js",
+  "repository": "https://github.com/dmitrizzle/react-image-grid.git",
+  "author": "dmitrizzle",
+  "license": "MIT",
+  "private": true
+}
