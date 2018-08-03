@@ -30,5 +30,9 @@
   "scripts": {
     "start": "webpack-dev-server --mode development",
     "test": "jest"
+  },
+  "jest": {
+    "testURL": "http://localhost/",
+    "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js"
   }
 }
