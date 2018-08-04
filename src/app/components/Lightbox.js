@@ -13,8 +13,9 @@ export const LightboxOverlay = styled(Overlay)`
   overflow-y: scroll;
 `;
 export const Box = styled.div`
-  max-width: 300px;
-  margin: 10% auto 0;
+  max-width: 520px;
+  width: 90%;
+  margin: 2em auto;
   background: #fff;
   color: #000;
   border-radius: .5em;
@@ -32,18 +33,32 @@ export const Box = styled.div`
 export const LightboxButton = styled(Button)`
   border-radius: 0;
   margin-bottom: 0;
+  max-width: 100%;
 `;
+export const ImageLarge = styled.img`width: 100%;`;
 
 export default props => {
+  console.log(props.data);
   return (
     <LightboxOverlay onClick={props.onClick}>
       <Box>
         <Title>
           Image by {props.data.user}
         </Title>
+        <ImageLarge src={props.data.src} />
         <p>
           {props.data.caption}
         </p>
+        {props.data.tags &&
+          props.data.tags.length > 0 &&
+          <p>
+            <strong>Tags:</strong>{" "}
+            {props.data.tags.map((tag, count) => {
+              return `${tag}${count === props.data.tags.length - 1
+                ? "."
+                : ","} `;
+            })}
+          </p>}
         <LightboxButton
           onClick={event => {
             event.stopPropagation();

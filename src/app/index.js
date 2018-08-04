@@ -9,7 +9,12 @@ import { ThemeProvider } from "styled-components";
 import React from "react";
 import axios from "axios";
 
-import { getCaptionFromFlickrString, getUserFromFlickrString } from "./utils";
+import {
+  getCaptionFromFlickrString,
+  getLargeImageFromFlickrM,
+  getTagsFromFlickrString,
+  getUserFromFlickrString
+} from './utils';
 import Header from "./components/Header";
 import Lightbox from "./components/Lightbox";
 import Main from "./components/Main";
@@ -95,7 +100,9 @@ export default class extends React.PureComponent {
         data: {
           user: getUserFromFlickrString(item.author),
           caption: getCaptionFromFlickrString(item.description),
-          link: item.link
+          link: item.link,
+          src: getLargeImageFromFlickrM(item.media.m),
+          tags: getTagsFromFlickrString(item.tags)
         }
       }
     });
