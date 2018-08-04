@@ -8,6 +8,7 @@ import { Sugar } from "@roast-cms/react-sugar-styled";
 import { ThemeProvider } from "styled-components";
 import React from "react";
 import axios from "axios";
+import hdate from "human-date"
 
 import {
   getCaptionFromFlickrString,
@@ -102,7 +103,8 @@ export default class extends React.PureComponent {
           caption: getCaptionFromFlickrString(item.description),
           link: item.link,
           src: getLargeImageFromFlickrM(item.media.m),
-          tags: getTagsFromFlickrString(item.tags)
+          tags: getTagsFromFlickrString(item.tags),
+          published: hdate.prettyPrint(item.published)
         }
       }
     });

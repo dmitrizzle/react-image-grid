@@ -16,6 +16,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
+    "human-date": "^1.4.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "sanitize.css": "^6.0.0",

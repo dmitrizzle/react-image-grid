@@ -38,7 +38,6 @@ export const LightboxButton = styled(Button)`
 export const ImageLarge = styled.img`width: 100%;`;
 
 export default props => {
-  console.log(props.data);
   return (
     <LightboxOverlay onClick={props.onClick}>
       <Box>
@@ -59,6 +58,7 @@ export default props => {
                 : ","} `;
             })}
           </p>}
+          <p><small>Published on {props.data.published}</small></p>
         <LightboxButton
           onClick={event => {
             event.stopPropagation();
