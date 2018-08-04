@@ -8,7 +8,7 @@ export default styled.main`
   margin: 0 auto;
 
   p {
-    font-family: ${props=> props.theme.typography.text.font};
+    font-family: ${props => props.theme.typography.text.font};
   }
   ${props =>
     props.theme.size.breakpoint.max.l`

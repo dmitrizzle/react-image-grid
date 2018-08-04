@@ -5,7 +5,7 @@ import React from "react";
 
 import { shallow } from "enzyme";
 
-import Picture, { PictureWrap, Image } from "./Picture";
+import Picture, { PictureWrap, Image, PictureOverlay } from "./Picture";
 
 test("Render PictureWrap without crashing, match snapshot", () => {
   const element = shallow(<PictureWrap theme={Sugar({})} />);
@@ -17,5 +17,9 @@ test("Render Picture without crashing, match snapshot", () => {
 });
 test("Render Image without crashing, match snapshot", () => {
   const element = shallow(<Image />);
+  expect(element).toMatchSnapshot();
+});
+test("Render PictureOverlay without crashing, match snapshot", () => {
+  const element = shallow(<PictureOverlay theme={Sugar({})} />);
   expect(element).toMatchSnapshot();
 });

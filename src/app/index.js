@@ -8,14 +8,14 @@ import { Sugar } from "@roast-cms/react-sugar-styled";
 import { ThemeProvider } from "styled-components";
 import React from "react";
 import axios from "axios";
-import hdate from "human-date"
+import hdate from "human-date";
 
 import {
   getCaptionFromFlickrString,
   getLargeImageFromFlickrM,
   getTagsFromFlickrString,
   getUserFromFlickrString
-} from './utils';
+} from "./utils";
 import Header from "./components/Header";
 import Lightbox from "./components/Lightbox";
 import Main from "./components/Main";
@@ -23,12 +23,15 @@ import Picture from "./components/Picture";
 
 const DEFAULT_GALLERY_DATA = [
   {
+    link: "a",
     media: {}
   },
   {
+    link: "b",
     media: {}
   },
   {
+    link: "c",
     media: {}
   }
 ];
@@ -115,7 +118,10 @@ export default class extends React.PureComponent {
   render = () => {
     return (
       <ThemeProvider
-        theme={Sugar({ font_heading: "'Indie Flower', cursive;", font_body: "'Titillium Web', sans-serif;" })}
+        theme={Sugar({
+          font_heading: "'Indie Flower', cursive;",
+          font_body: "'Titillium Web', sans-serif;"
+        })}
       >
         <div>
           <Header />
@@ -125,7 +131,7 @@ export default class extends React.PureComponent {
                 user={getUserFromFlickrString(item.author)}
                 caption={getCaptionFromFlickrString(item.description)}
                 src={item.media.m}
-                key={Math.random()}
+                key={item.link}
                 onClick={() => this.handleLightbox(item)}
               />
             )}

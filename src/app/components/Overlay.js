@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export default styled.aside`
   display: none;
@@ -14,6 +14,6 @@ export default styled.aside`
 
   & > p {
     opacity: .5;
-    font-family: ${props=> props.theme.typography.text.font};
+    font-family: ${props => props.theme.typography.text.font};
   }
 `;

@@ -1,5 +1,6 @@
 import "jest-styled-components";
 
+import { Sugar } from "@roast-cms/react-sugar-styled";
 import React from "react";
 
 import { shallow } from "enzyme";
@@ -12,7 +13,14 @@ test("Render Header without crashing, match snapshot", () => {
 });
 
 test("Render Title without crashing, match snapshot", () => {
-  const element = shallow(<Title />);
+  const element = shallow(
+    <Title
+      theme={Sugar({
+        font_heading: "'Indie Flower', cursive;",
+        font_body: "'Titillium Web', sans-serif;"
+      })}
+    />
+  );
   expect(element).toMatchSnapshot();
 });
 

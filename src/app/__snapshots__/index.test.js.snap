@@ -20,9 +20,15 @@ ShallowWrapper {
       "children": <div>
         <Unknown />
         <styled.main>
-          <Unknown />
-          <Unknown />
-          <Unknown />
+          <Unknown
+            onClick={[Function]}
+          />
+          <Unknown
+            onClick={[Function]}
+          />
+          <Unknown
+            onClick={[Function]}
+          />
         </styled.main>
       </div>,
       "theme": Object {
@@ -164,7 +170,7 @@ ShallowWrapper {
               [Function],
               ";
           font-family: ",
-              "'Indie Flower', cursive;",
+              "'Titillium Web', sans-serif;",
               ";
           letter-spacing: 0.025em;
           line-height: ",
@@ -172,7 +178,7 @@ ShallowWrapper {
               "em;
         ",
             ],
-            "font": "'Indie Flower', cursive;",
+            "font": "'Titillium Web', sans-serif;",
             "lineHeight": 1.75,
           },
           "title": Object {
@@ -209,10 +215,17 @@ ShallowWrapper {
         "children": Array [
           <Unknown />,
           <styled.main>
-            <Unknown />
-            <Unknown />
-            <Unknown />
+            <Unknown
+              onClick={[Function]}
+            />
+            <Unknown
+              onClick={[Function]}
+            />
+            <Unknown
+              onClick={[Function]}
+            />
           </styled.main>,
+          false,
           false,
         ],
       },
@@ -233,19 +246,26 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Unknown />,
-              <Unknown />,
-              <Unknown />,
+              <Unknown
+                onClick={[Function]}
+              />,
+              <Unknown
+                onClick={[Function]}
+              />,
+              <Unknown
+                onClick={[Function]}
+              />,
             ],
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
-              "key": "0.965818585564604",
+              "key": "a",
               "nodeType": "function",
               "props": Object {
                 "caption": undefined,
+                "onClick": [Function],
                 "src": undefined,
                 "user": undefined,
               },
@@ -255,10 +275,11 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "0.06876627102783295",
+              "key": "b",
               "nodeType": "function",
               "props": Object {
                 "caption": undefined,
+                "onClick": [Function],
                 "src": undefined,
                 "user": undefined,
               },
@@ -268,10 +289,11 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": "0.08038806490725658",
+              "key": "c",
               "nodeType": "function",
               "props": Object {
                 "caption": undefined,
+                "onClick": [Function],
                 "src": undefined,
                 "user": undefined,
               },
@@ -282,6 +304,7 @@ ShallowWrapper {
           ],
           "type": [Function],
         },
+        false,
         false,
       ],
       "type": "div",
@@ -297,9 +320,15 @@ ShallowWrapper {
         "children": <div>
           <Unknown />
           <styled.main>
-            <Unknown />
-            <Unknown />
-            <Unknown />
+            <Unknown
+              onClick={[Function]}
+            />
+            <Unknown
+              onClick={[Function]}
+            />
+            <Unknown
+              onClick={[Function]}
+            />
           </styled.main>
         </div>,
         "theme": Object {
@@ -441,7 +470,7 @@ ShallowWrapper {
                 [Function],
                 ";
           font-family: ",
-                "'Indie Flower', cursive;",
+                "'Titillium Web', sans-serif;",
                 ";
           letter-spacing: 0.025em;
           line-height: ",
@@ -449,7 +478,7 @@ ShallowWrapper {
                 "em;
         ",
               ],
-              "font": "'Indie Flower', cursive;",
+              "font": "'Titillium Web', sans-serif;",
               "lineHeight": 1.75,
             },
             "title": Object {
@@ -486,10 +515,17 @@ ShallowWrapper {
           "children": Array [
             <Unknown />,
             <styled.main>
-              <Unknown />
-              <Unknown />
-              <Unknown />
+              <Unknown
+                onClick={[Function]}
+              />
+              <Unknown
+                onClick={[Function]}
+              />
+              <Unknown
+                onClick={[Function]}
+              />
             </styled.main>,
+            false,
             false,
           ],
         },
@@ -510,19 +546,26 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "children": Array [
-                <Unknown />,
-                <Unknown />,
-                <Unknown />,
+                <Unknown
+                  onClick={[Function]}
+                />,
+                <Unknown
+                  onClick={[Function]}
+                />,
+                <Unknown
+                  onClick={[Function]}
+                />,
               ],
             },
             "ref": null,
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": "0.965818585564604",
+                "key": "a",
                 "nodeType": "function",
                 "props": Object {
                   "caption": undefined,
+                  "onClick": [Function],
                   "src": undefined,
                   "user": undefined,
                 },
@@ -532,10 +575,11 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "0.06876627102783295",
+                "key": "b",
                 "nodeType": "function",
                 "props": Object {
                   "caption": undefined,
+                  "onClick": [Function],
                   "src": undefined,
                   "user": undefined,
                 },
@@ -545,10 +589,11 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": "0.08038806490725658",
+                "key": "c",
                 "nodeType": "function",
                 "props": Object {
                   "caption": undefined,
+                  "onClick": [Function],
                   "src": undefined,
                   "user": undefined,
                 },
@@ -559,6 +604,7 @@ ShallowWrapper {
             ],
             "type": [Function],
           },
+          false,
           false,
         ],
         "type": "div",
