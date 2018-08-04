@@ -58,7 +58,11 @@ export default props => {
                 : ","} `;
             })}
           </p>}
-          <p><small>Published on {props.data.published}</small></p>
+        <p>
+          <small>
+            Published on {props.data.published}
+          </small>
+        </p>
         <LightboxButton
           onClick={event => {
             event.stopPropagation();
