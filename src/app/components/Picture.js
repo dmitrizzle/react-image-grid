@@ -39,7 +39,11 @@ export const Image = styled.div`
   height: 100%;
 `;
 
-export default (props) =>
-  <PictureWrap >
-    <Image {...props} />
-  </PictureWrap>;
+export default props => {
+  console.log(props.user, props.caption);
+  return (
+    <PictureWrap>
+      <Image {...props} />
+    </PictureWrap>
+  );
+};

@@ -1,13 +1,14 @@
 import "sanitize.css";
 import "typeface-indie-flower/index.css";
 
+import { Button } from "@roast-cms/react-button-beans";
+import { Loader } from "@roast-cms/react-button-beans/dist/Loader";
 import { Sugar } from "@roast-cms/react-sugar-styled";
 import { ThemeProvider } from "styled-components";
 import React from "react";
 import axios from "axios";
-import { Button } from "@roast-cms/react-button-beans";
-import { Loader } from "@roast-cms/react-button-beans/dist/Loader";
 
+import { getCaptionFromFlickrString, getUserFromFlickrString } from './utils';
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Picture from "./components/Picture";
@@ -59,7 +60,6 @@ export default class extends React.PureComponent {
       const galleryMergeData = this.state.gallery.data[0].media.m
         ? this.state.gallery.data
         : [];
-      console.log(galleryMergeData);
       this.setState({
         gallery: {
           loading: false,
@@ -86,7 +86,14 @@ export default class extends React.PureComponent {
           <Header />
           <Main>
             {this.state.gallery.data.map(item => {
-              return <Picture src={item.media.m} key={Math.random()} />;
+              return (
+                <Picture
+                  user={getUserFromFlickrString(item.author)}
+                  caption={getCaptionFromFlickrString(item.description)}
+                  src={item.media.m}
+                  key={Math.random()}
+                />
+              );
             })}
           </Main>
           {this.state.gallery.data.length >= this.state.itemsPerPage &&

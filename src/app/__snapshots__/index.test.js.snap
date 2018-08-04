@@ -4,7 +4,7 @@ exports[`Render App without crashing, match snapshot 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <Unknown />,
+  Symbol(enzyme.__unrendered__): <_class />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -20,27 +20,9 @@ ShallowWrapper {
       "children": <div>
         <Unknown />
         <styled.main>
-          <Unknown
-            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-          />
-          <Unknown
-            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-          />
-          <Unknown
-            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-          />
-          <Unknown
-            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-          />
-          <Unknown
-            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-          />
-          <Unknown
-            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-          />
-          <Unknown
-            src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-          />
+          <Unknown />
+          <Unknown />
+          <Unknown />
         </styled.main>
       </div>,
       "theme": Object {
@@ -182,7 +164,7 @@ ShallowWrapper {
               [Function],
               ";
           font-family: ",
-              "Arial, sans-serif",
+              "'Indie Flower', cursive;",
               ";
           letter-spacing: 0.025em;
           line-height: ",
@@ -190,7 +172,7 @@ ShallowWrapper {
               "em;
         ",
             ],
-            "font": "Arial, sans-serif",
+            "font": "'Indie Flower', cursive;",
             "lineHeight": 1.75,
           },
           "title": Object {
@@ -200,7 +182,7 @@ ShallowWrapper {
               [Function],
               ";
           font-family: ",
-              "Arial, sans-serif",
+              "'Indie Flower', cursive;",
               ";
           letter-spacing: 0.025em;
           line-height: ",
@@ -212,7 +194,7 @@ ShallowWrapper {
           margin: 0;
         ",
             ],
-            "font": "Arial, sans-serif",
+            "font": "'Indie Flower', cursive;",
             "lineHeight": 1.15,
           },
         },
@@ -227,28 +209,11 @@ ShallowWrapper {
         "children": Array [
           <Unknown />,
           <styled.main>
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
+            <Unknown />
+            <Unknown />
+            <Unknown />
           </styled.main>,
+          false,
         ],
       },
       "ref": null,
@@ -268,37 +233,21 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "children": Array [
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />,
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />,
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />,
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />,
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />,
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />,
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />,
+              <Unknown />,
+              <Unknown />,
+              <Unknown />,
             ],
           },
           "ref": null,
           "rendered": Array [
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "0.965818585564604",
               "nodeType": "function",
               "props": Object {
-                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                "caption": undefined,
+                "src": undefined,
+                "user": undefined,
               },
               "ref": null,
               "rendered": null,
@@ -306,10 +255,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "0.06876627102783295",
               "nodeType": "function",
               "props": Object {
-                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                "caption": undefined,
+                "src": undefined,
+                "user": undefined,
               },
               "ref": null,
               "rendered": null,
@@ -317,54 +268,12 @@ ShallowWrapper {
             },
             Object {
               "instance": null,
-              "key": undefined,
+              "key": "0.08038806490725658",
               "nodeType": "function",
               "props": Object {
-                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": [Function],
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "function",
-              "props": Object {
-                "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                "caption": undefined,
+                "src": undefined,
+                "user": undefined,
               },
               "ref": null,
               "rendered": null,
@@ -373,6 +282,7 @@ ShallowWrapper {
           ],
           "type": [Function],
         },
+        false,
       ],
       "type": "div",
     },
@@ -387,27 +297,9 @@ ShallowWrapper {
         "children": <div>
           <Unknown />
           <styled.main>
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
-            <Unknown
-              src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-            />
+            <Unknown />
+            <Unknown />
+            <Unknown />
           </styled.main>
         </div>,
         "theme": Object {
@@ -549,7 +441,7 @@ ShallowWrapper {
                 [Function],
                 ";
           font-family: ",
-                "Arial, sans-serif",
+                "'Indie Flower', cursive;",
                 ";
           letter-spacing: 0.025em;
           line-height: ",
@@ -557,7 +449,7 @@ ShallowWrapper {
                 "em;
         ",
               ],
-              "font": "Arial, sans-serif",
+              "font": "'Indie Flower', cursive;",
               "lineHeight": 1.75,
             },
             "title": Object {
@@ -567,7 +459,7 @@ ShallowWrapper {
                 [Function],
                 ";
           font-family: ",
-                "Arial, sans-serif",
+                "'Indie Flower', cursive;",
                 ";
           letter-spacing: 0.025em;
           line-height: ",
@@ -579,7 +471,7 @@ ShallowWrapper {
           margin: 0;
         ",
               ],
-              "font": "Arial, sans-serif",
+              "font": "'Indie Flower', cursive;",
               "lineHeight": 1.15,
             },
           },
@@ -594,28 +486,11 @@ ShallowWrapper {
           "children": Array [
             <Unknown />,
             <styled.main>
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />
-              <Unknown
-                src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-              />
+              <Unknown />
+              <Unknown />
+              <Unknown />
             </styled.main>,
+            false,
           ],
         },
         "ref": null,
@@ -635,37 +510,21 @@ ShallowWrapper {
             "nodeType": "class",
             "props": Object {
               "children": Array [
-                <Unknown
-                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-                />,
-                <Unknown
-                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-                />,
-                <Unknown
-                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-                />,
-                <Unknown
-                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-                />,
-                <Unknown
-                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-                />,
-                <Unknown
-                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-                />,
-                <Unknown
-                  src="https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg"
-                />,
+                <Unknown />,
+                <Unknown />,
+                <Unknown />,
               ],
             },
             "ref": null,
             "rendered": Array [
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "0.965818585564604",
                 "nodeType": "function",
                 "props": Object {
-                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                  "caption": undefined,
+                  "src": undefined,
+                  "user": undefined,
                 },
                 "ref": null,
                 "rendered": null,
@@ -673,10 +532,12 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "0.06876627102783295",
                 "nodeType": "function",
                 "props": Object {
-                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                  "caption": undefined,
+                  "src": undefined,
+                  "user": undefined,
                 },
                 "ref": null,
                 "rendered": null,
@@ -684,54 +545,12 @@ ShallowWrapper {
               },
               Object {
                 "instance": null,
-                "key": undefined,
+                "key": "0.08038806490725658",
                 "nodeType": "function",
                 "props": Object {
-                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
-                },
-                "ref": null,
-                "rendered": null,
-                "type": [Function],
-              },
-              Object {
-                "instance": null,
-                "key": undefined,
-                "nodeType": "function",
-                "props": Object {
-                  "src": "https://res.cloudinary.com/analog-cafe/image/upload/c_scale,fl_progressive,w_520/image-froth_1333333_Byl1aAiE7.jpg",
+                  "caption": undefined,
+                  "src": undefined,
+                  "user": undefined,
                 },
                 "ref": null,
                 "rendered": null,
@@ -740,6 +559,7 @@ ShallowWrapper {
             ],
             "type": [Function],
           },
+          false,
         ],
         "type": "div",
       },
