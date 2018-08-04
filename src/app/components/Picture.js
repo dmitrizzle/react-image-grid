@@ -32,6 +32,7 @@ export const PictureWrap = styled.div`
     `};
 `;
 export const Image = styled.div`
+  background-color: #eee;
   background-image: url(${props => props.src || DOT});
   background-size: cover;
   width: 100%;
