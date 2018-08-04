@@ -5,6 +5,8 @@ import { Sugar } from "@roast-cms/react-sugar-styled";
 import { ThemeProvider } from "styled-components";
 import React from "react";
 import axios from "axios";
+import { Button } from "@roast-cms/react-button-beans";
+import { Loader } from "@roast-cms/react-button-beans/dist/Loader";
 
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -27,6 +29,7 @@ export default class extends React.PureComponent {
     this.state = {
       itemsPerPage: 12,
       gallery: {
+        loading: false,
         data: DEFAULT_GALLERY_DATA,
         page: 1,
         isLastPage: false
@@ -35,6 +38,12 @@ export default class extends React.PureComponent {
     this.handleMore = this.handleMore.bind(this);
   }
   fetch = page => {
+    this.setState({
+      gallery: {
+        ...this.state.gallery,
+        loading: true
+      }
+    });
     axios({
       method: "get",
       params: {
@@ -47,22 +56,21 @@ export default class extends React.PureComponent {
         response.data.length - this.state.itemsPerPage ===
         0
       );
+      const galleryMergeData = this.state.gallery.data[0].media.m
+        ? this.state.gallery.data
+        : [];
+      console.log(galleryMergeData);
       this.setState({
         gallery: {
+          loading: false,
           page,
           isLastPage,
-          data: [...this.state.gallery.data, ...response.data]
+          data: [...galleryMergeData, ...response.data]
         }
       });
     });
   };
   componentDidMount = () => {
-    this.setState({
-      gallery: {
-        ...this.state.gallery,
-        data: []
-      }
-    });
     this.fetch(this.state.gallery.page);
   };
   handleMore = event => {
@@ -71,7 +79,9 @@ export default class extends React.PureComponent {
   };
   render = () => {
     return (
-      <ThemeProvider theme={Sugar({})}>
+      <ThemeProvider
+        theme={Sugar({ font_heading: "'Indie Flower', cursive;" })}
+      >
         <div>
           <Header />
           <Main>
@@ -81,9 +91,13 @@ export default class extends React.PureComponent {
           </Main>
           {this.state.gallery.data.length >= this.state.itemsPerPage &&
             !this.state.gallery.isLastPage &&
-            <a href="#more" onClick={this.handleMore}>
-              More
-            </a>}
+            <Button
+              onClick={this.handleMore}
+              loading={this.state.gallery.loading}
+              loaderComponent={Loader}
+            >
+              Load More
+            </Button>}
         </div>
       </ThemeProvider>
     );
