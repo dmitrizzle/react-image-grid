@@ -6366,6 +6366,10 @@ typeface-indie-flower@^0.0.54:
   version "0.0.54"
   resolved "https://registry.yarnpkg.com/typeface-indie-flower/-/typeface-indie-flower-0.0.54.tgz#eb988134d67982c3c35be12389db0c1c247869eb"
 
+typeface-titillium-web@^0.0.54:
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/typeface-titillium-web/-/typeface-titillium-web-0.0.54.tgz#91e525090c05df9291fcc92df8dab16fbbc3e2c9"
+
 ua-parser-js@^0.7.18:
   version "0.7.18"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.18.tgz#a7bfd92f56edfb117083b69e31d2aa8882d4b1ed"

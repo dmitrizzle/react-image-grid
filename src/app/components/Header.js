@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const HeaderWrap = styled.header`padding: 1em;`;
 export const Title = styled.h1`
-  font-family: 'Indie Flower', cursive;
+  font-family: ${props=> props.theme.typography.title.font};
   margin: 0;
   text-align: center;
 `;

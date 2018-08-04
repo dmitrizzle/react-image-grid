@@ -1,5 +1,6 @@
 import "sanitize.css";
 import "typeface-indie-flower/index.css";
+import "typeface-titillium-web/index.css";
 
 import { Button } from "@roast-cms/react-button-beans";
 import { Loader } from "@roast-cms/react-button-beans/dist/Loader";
@@ -93,18 +94,19 @@ export default class extends React.PureComponent {
         show: true,
         data: {
           user: getUserFromFlickrString(item.author),
-          caption: getCaptionFromFlickrString(item.description)
+          caption: getCaptionFromFlickrString(item.description),
+          link: item.link
         }
       }
     });
   };
   handleLightboxClose = () => {
-    this.setState({ lightbox: { show: false } })
-  }
+    this.setState({ lightbox: { show: false } });
+  };
   render = () => {
     return (
       <ThemeProvider
-        theme={Sugar({ font_heading: "'Indie Flower', cursive;" })}
+        theme={Sugar({ font_heading: "'Indie Flower', cursive;", font_body: "'Titillium Web', sans-serif;" })}
       >
         <div>
           <Header />

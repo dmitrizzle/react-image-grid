@@ -14,5 +14,6 @@ export default styled.aside`
 
   & > p {
     opacity: .5;
+    font-family: ${props=> props.theme.typography.text.font};
   }
 `;

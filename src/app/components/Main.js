@@ -7,6 +7,9 @@ export default styled.main`
   width: 1080px;
   margin: 0 auto;
 
+  p {
+    font-family: ${props=> props.theme.typography.text.font};
+  }
   ${props =>
     props.theme.size.breakpoint.max.l`
       width: 750px;
