@@ -8,8 +8,9 @@ import { ThemeProvider } from "styled-components";
 import React from "react";
 import axios from "axios";
 
-import { getCaptionFromFlickrString, getUserFromFlickrString } from './utils';
+import { getCaptionFromFlickrString, getUserFromFlickrString } from "./utils";
 import Header from "./components/Header";
+import Lightbox from "./components/Lightbox";
 import Main from "./components/Main";
 import Picture from "./components/Picture";
 
@@ -34,9 +35,18 @@ export default class extends React.PureComponent {
         data: DEFAULT_GALLERY_DATA,
         page: 1,
         isLastPage: false
+      },
+      lightbox: {
+        show: false,
+        data: {
+          user: "",
+          caption: ""
+        }
       }
     };
     this.handleMore = this.handleMore.bind(this);
+    this.handleLightbox = this.handleLightbox.bind(this);
+    this.handleLightboxClose = this.handleLightboxClose.bind(this);
   }
   fetch = page => {
     this.setState({
@@ -77,6 +87,20 @@ export default class extends React.PureComponent {
     event.preventDefault();
     this.fetch(this.state.gallery.page + 1);
   };
+  handleLightbox = item => {
+    this.setState({
+      lightbox: {
+        show: true,
+        data: {
+          user: getUserFromFlickrString(item.author),
+          caption: getCaptionFromFlickrString(item.description)
+        }
+      }
+    });
+  };
+  handleLightboxClose = () => {
+    this.setState({ lightbox: { show: false } })
+  }
   render = () => {
     return (
       <ThemeProvider
@@ -85,16 +109,15 @@ export default class extends React.PureComponent {
         <div>
           <Header />
           <Main>
-            {this.state.gallery.data.map(item => {
-              return (
-                <Picture
-                  user={getUserFromFlickrString(item.author)}
-                  caption={getCaptionFromFlickrString(item.description)}
-                  src={item.media.m}
-                  key={Math.random()}
-                />
-              );
-            })}
+            {this.state.gallery.data.map(item =>
+              <Picture
+                user={getUserFromFlickrString(item.author)}
+                caption={getCaptionFromFlickrString(item.description)}
+                src={item.media.m}
+                key={Math.random()}
+                onClick={() => this.handleLightbox(item)}
+              />
+            )}
           </Main>
           {this.state.gallery.data.length >= this.state.itemsPerPage &&
             !this.state.gallery.isLastPage &&
@@ -105,6 +128,11 @@ export default class extends React.PureComponent {
             >
               Load More
             </Button>}
+          {this.state.lightbox.show &&
+            <Lightbox
+              data={this.state.lightbox.data}
+              onClick={this.handleLightboxClose}
+            />}
         </div>
       </ThemeProvider>
     );
