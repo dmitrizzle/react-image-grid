@@ -67,8 +67,7 @@ export const Image = styled.div`
   width: 100%;
   height: 100%;
 `;
-export const PictureOverlay;
- = styled(Overlay)`
+export const PictureOverlay = styled(Overlay)`
   font-family: ${props=> props.theme.typography.text.font};
   & > p {
     opacity: .5;
