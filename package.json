@@ -10,6 +10,7 @@
   "dependencies": {
     "@roast-cms/react-sugar-styled": "^1.0.4",
     "axios": "^0.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
     "file-loader": "^1.1.11",
